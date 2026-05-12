@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>日産自動車 CRE営業ターゲット BI Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="ダッシュボードナビゲーション">
+        <div class="brand">
+          <span class="brand-mark">CRE</span>
+          <div>
+            <p class="eyebrow">Nissan Motor Co.</p>
+            <h1>BI Dashboard</h1>
+          </div>
+        </div>
+        <nav class="nav-list">
+          <a href="#overview" class="active">Overview</a>
+          <a href="#signals">CRE Signals</a>
+          <a href="#finance">Finance</a>
+          <a href="#assets">Assets</a>
+          <a href="#scorecard">Scorecard</a>
+          <a href="#playbook">Playbook</a>
+        </nav>
+        <section class="sidebar-card">
+          <p class="label">基準日</p>
+          <strong>2026-05-12</strong>
+          <span>公開資料ベースの営業判断用ビュー</span>
+        </section>
+      </aside>
+
+      <main class="dashboard">
+        <header class="hero" id="overview">
+          <div>
+            <p class="eyebrow">Corporate Real Estate / Sales Intelligence</p>
+            <h2>日産自動車 CRE営業ターゲット・ダッシュボード</h2>
+            <p class="hero-copy">
+              有価証券報告書、Re:Nissan / The Arc、統合報告書、直近四半期決算を横断し、
+              工場再編・資産売却・資本効率化の営業機会をBIツール風に可視化します。
+            </p>
+          </div>
+          <div class="hero-score" aria-label="総合評価 92点">
+            <span>総合評価</span>
+            <strong>92</strong>
+            <em>/ 100</em>
+            <p>最優先ターゲット</p>
+          </div>
+        </header>
+
+        <section class="kpi-grid" aria-label="重要KPI">
+          <article class="kpi-card critical">
+            <span>案件発生確度</span>
+            <strong>24 / 25</strong>
+            <div class="meter"><i style="width: 96%"></i></div>
+            <p>車両生産工場 17→10 統合方針</p>
+          </article>
+          <article class="kpi-card critical">
+            <span>案件規模</span>
+            <strong>20 / 20</strong>
+            <div class="meter"><i style="width: 100%"></i></div>
+            <p>国内外工場・物流・研究開発まで波及</p>
+          </article>
+          <article class="kpi-card warning">
+            <span>タイミング</span>
+            <strong>9 / 10</strong>
+            <div class="meter"><i style="width: 90%"></i></div>
+            <p>2026年度黒字化、2027年度統合</p>
+          </article>
+          <article class="kpi-card warning">
+            <span>外部支援余地</span>
+            <strong>13 / 15</strong>
+            <div class="meter"><i style="width: 87%"></i></div>
+            <p>売却・環境DD・自治体調整が中心</p>
+          </article>
+        </section>
+
+        <section class="panel source-panel">
+          <div class="section-title">
+            <p class="eyebrow">Source Tracker</p>
+            <h3>最新資料トラッカー</h3>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>資料カテゴリ</th>
+                  <th>最新採用資料</th>
+                  <th>対象期間・公表日</th>
+                  <th>重要度</th>
+                  <th>CRE分析での使い方</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>有価証券報告書</td>
+                  <td><a href="https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100W2UQ.pdf">有価証券報告書 第126期</a></td>
+                  <td>2024-04-01〜2025-03-31 / 2025-06-23提出</td>
+                  <td><span class="badge high">高</span></td>
+                  <td>設備、土地、借用設備、減損、処分予定資産を確認。</td>
+                </tr>
+                <tr>
+                  <td>経営計画</td>
+                  <td><a href="https://www2.nissan-global.com/JP/COMPANY/PLAN/RENISSAN/">Re:Nissan</a> / <a href="https://www.nissan-global.com/JP/NEWS/ASSETS/PDF/240325-02-j_presentation.pdf">The Arc</a></td>
+                  <td>The Arc: 2024-03-25、Re:Nissan: 2025-05-13以降更新</td>
+                  <td><span class="badge high">高</span></td>
+                  <td>工場統合、固定費削減、生産能力再編の方向性を確認。</td>
+                </tr>
+                <tr>
+                  <td>統合報告書</td>
+                  <td><a href="https://www.nissan-global.com/EN/IR/INTEGRATED_REPORT/">Integrated Report 2024</a></td>
+                  <td>2024年版</td>
+                  <td><span class="badge mid">中</span></td>
+                  <td>長期戦略、資本配分、サステナビリティの文脈を確認。</td>
+                </tr>
+                <tr>
+                  <td>直近財務データ</td>
+                  <td><a href="https://www.nissan-global.com/EN/IR/FINANCIAL_RESULTS/ASSETS/DATA/2025/20253rd_financialresult_059_e.pdf">2026年3月期 第3四半期決算</a></td>
+                  <td>2025-04-01〜2025-12-31 / 2026-02-12公表</td>
+                  <td><span class="badge high">高</span></td>
+                  <td>B/S、FCF、固定資産売却、減損の直近トレンドを確認。</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="two-column" id="signals">
+          <article class="panel">
+            <div class="section-title stacked">
+              <div>
+                <p class="eyebrow">Heatmap</p>
+                <h3>CREシグナル強度</h3>
+              </div>
+              <div class="filter-pills" aria-label="シグナル強度フィルター">
+                <button type="button" class="active" data-filter="all">All</button>
+                <button type="button" data-filter="severe">非常に強い</button>
+                <button type="button" data-filter="high">強い</button>
+                <button type="button" data-filter="medium">中程度</button>
+              </div>
+            </div>
+            <div class="signal-list">
+              <div class="signal-item severe"><b>工場統合・生産能力削減</b><span>非常に強い</span><p>車両生産工場を17→10へ統合。跡地売却・用途転換・移転PMが発生。</p></div>
+              <div class="signal-item severe"><b>固定資産売却の加速</b><span>非常に強い</span><p>FY2025 3Q累計の固定資産売却収入は1,767億円、売却益は1,191億円。</p></div>
+              <div class="signal-item high"><b>遊休・処分予定資産</b><span>強い</span><p>FY2024に遊休資産27件、売却資産24件、処分予定資産11件。</p></div>
+              <div class="signal-item high"><b>資本効率化圧力</b><span>強い</span><p>FCF赤字、純資産低下、長期社債増加が非中核資産のキャッシュ化を後押し。</p></div>
+              <div class="signal-item medium"><b>リース・オフバランス</b><span>中程度</span><p>物流倉庫、本社、情報システムセンターの賃借/保有比較に余地。</p></div>
+            </div>
+          </article>
+
+          <article class="panel chart-card" id="scorecard">
+            <div class="section-title">
+              <p class="eyebrow">Scorecard</p>
+              <h3>営業ターゲット評価</h3>
+            </div>
+            <div class="radial" style="--score: 92" aria-label="92パーセント">
+              <span>92%</span>
+            </div>
+            <div class="score-bars">
+              <div><span>案件発生確度</span><i><b style="width:96%"></b></i><em>24/25</em></div>
+              <div><span>案件規模</span><i><b style="width:100%"></b></i><em>20/20</em></div>
+              <div><span>経営課題との一致</span><i><b style="width:95%"></b></i><em>19/20</em></div>
+              <div><span>外部支援余地</span><i><b style="width:87%"></b></i><em>13/15</em></div>
+              <div><span>タイミング</span><i><b style="width:90%"></b></i><em>9/10</em></div>
+              <div><span>実現難易度調整</span><i><b style="width:70%"></b></i><em>7/10</em></div>
+            </div>
+          </article>
+        </section>
+
+        <section class="panel" id="finance">
+          <div class="section-title">
+            <p class="eyebrow">Financial Dashboard</p>
+            <h3>B/S・キャッシュ・資産売却</h3>
+          </div>
+          <div class="finance-grid">
+            <article><span>総資産</span><strong>19兆6,880億円</strong><em>+6,640億円</em><p>流動性確保が先行。</p></article>
+            <article><span>純資産</span><strong>5兆3,240億円</strong><em class="down">-1,213億円</em><p>資本余力が縮小。</p></article>
+            <article><span>土地</span><strong>5,668億円</strong><em class="down">-74億円</em><p>工場統合で案件化余地。</p></article>
+            <article><span>長期社債</span><strong>2兆6,711億円</strong><em>+9,626億円</em><p>代替調達ニーズを示唆。</p></article>
+          </div>
+          <div class="bar-chart" aria-label="キャッシュ創出・固定資産売却グラフ">
+            <div class="bar-row negative"><span>自動車事業FCF</span><i style="--bar: 100%"><b>-6,914億円</b></i></div>
+            <div class="bar-row"><span>固定資産売却収入</span><i style="--bar: 26%"><b>1,767億円</b></i></div>
+            <div class="bar-row"><span>固定資産売却益</span><i style="--bar: 17%"><b>1,191億円</b></i></div>
+            <div class="bar-row"><span>減損損失</span><i style="--bar: 12%"><b>806億円</b></i></div>
+          </div>
+        </section>
+
+        <section class="panel" id="assets">
+          <div class="section-title">
+            <p class="eyebrow">Asset Portfolio</p>
+            <h3>不動産・設備ポートフォリオ</h3>
+          </div>
+          <div class="asset-cards">
+            <article class="asset-card focus">
+              <span>最重要</span>
+              <h4>追浜工場（総合研究所含む）</h4>
+              <dl><div><dt>土地面積</dt><dd>1,844,577㎡</dd></div><div><dt>土地簿価</dt><dd>291.5億円</dd></div><div><dt>総帳簿価額</dt><dd>1,122.79億円</dd></div></dl>
+              <p>車両生産終了・九州移管に伴う跡地構想、売却、再開発、地域調整。</p>
+            </article>
+            <article class="asset-card">
+              <span>受け皿</span>
+              <h4>日産自動車九州</h4>
+              <dl><div><dt>土地面積</dt><dd>2,355,196㎡</dd></div><div><dt>土地簿価</dt><dd>298.49億円</dd></div><div><dt>総帳簿価額</dt><dd>1,033.85億円</dd></div></dl>
+              <p>生産移管の受け皿として改修・増強・物流再設計の可能性。</p>
+            </article>
+            <article class="asset-card">
+              <span>賃借最適化</span>
+              <h4>愛川町 パーツセンター倉庫</h4>
+              <dl><div><dt>面積</dt><dd>97,852㎡</dd></div><div><dt>月額賃料</dt><dd>1億5,389.9万円</dd></div><div><dt>年換算</dt><dd>約18.5億円</dd></div></dl>
+              <p>物流網再編、倉庫集約、賃借/保有比較、契約条件見直し。</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="panel" id="playbook">
+          <div class="section-title">
+            <p class="eyebrow">Commercial Playbook</p>
+            <h3>支援メニューと90日アクション</h3>
+          </div>
+          <div class="playbook-grid">
+            <div class="priority-list">
+              <div><span>S</span><b>土地売却・資産売却</b><p>買主探索、入札設計、価格査定、売却/賃貸比較。</p></div>
+              <div><span>S</span><b>用途転換・跡地企画構想</b><p>物流、研究開発、産業団地、データセンター等の転用調査。</p></div>
+              <div><span>S</span><b>環境・土壌・許認可DD</b><p>土壌・地下水・アスベスト・PCB・開発許認可リスク診断。</p></div>
+              <div><span>A</span><b>建設・移転PM</b><p>受入改修、設備移設、工程・コスト管理。</p></div>
+            </div>
+            <ol class="timeline">
+              <li><b>0〜30日</b><span>仮説提示</span><p>Re:Nissan再編拠点と固定資産売却実績からCRE改善余地を提示。</p></li>
+              <li><b>31〜60日</b><span>簡易診断</span><p>拠点別に売却、賃貸、自社活用、再開発、保留を分類。</p></li>
+              <li><b>61〜90日</b><span>実行設計</span><p>売却候補、用途転換候補、環境DD対象、移転PM対象を優先順位付け。</p></li>
+            </ol>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
