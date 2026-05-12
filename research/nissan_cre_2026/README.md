@@ -6,6 +6,18 @@
 > **ブラウザ版BIダッシュボード：** [`dashboard/index.html`](./dashboard/index.html)<br>
 > 静的HTML/CSSのみで表示できる、営業判断向けのWebダッシュボードを追加しています。
 
+## すぐ開く方法（HTTPサーバー不要）
+
+1. ファイル一覧から `research/nissan_cre_2026/dashboard/index.html` をダブルクリックします。
+2. うまく開けない場合は、OSに合わせて次の起動ファイルを実行します。
+   - macOS / Linux: `research/nissan_cre_2026/open_dashboard.sh`
+   - Windows: `research/nissan_cre_2026/open_dashboard.bat`
+3. ブラウザのアドレス欄に直接入力する場合は、次のローカルファイルURLを使えます。
+
+```text
+file:///workspace/codex_01/research/nissan_cre_2026/dashboard/index.html
+```
+
 ---
 
 ## 0. Executive Snapshot
