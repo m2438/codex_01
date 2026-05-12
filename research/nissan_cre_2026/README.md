@@ -8,14 +8,22 @@
 
 ## すぐ開く方法（HTTPサーバー不要）
 
-1. ファイル一覧から `research/nissan_cre_2026/dashboard/index.html` をダブルクリックします。
-2. うまく開けない場合は、OSに合わせて次の起動ファイルを実行します。
-   - macOS / Linux: `research/nissan_cre_2026/open_dashboard.sh`
-   - Windows: `research/nissan_cre_2026/open_dashboard.bat`
-3. ブラウザのアドレス欄に直接入力する場合は、次のローカルファイルURLを使えます。
+> `file:///workspace/...` はCodex実行環境内のパスです。お使いのPCのブラウザから直接入力しても、そのPCに `/workspace/codex_01` が存在しないため「削除された」ように表示されます。
+
+1. まず、リポジトリ一式をお使いのPCにダウンロードまたはチェックアウトします。
+2. ダウンロードしたフォルダの中で、次のファイルをダブルクリックしてください。
 
 ```text
-file:///workspace/codex_01/research/nissan_cre_2026/dashboard/index.html
+research/nissan_cre_2026/OPEN_DASHBOARD.html
+```
+
+3. うまく開けない場合は、同じフォルダ内のOS別起動ファイルを実行します。
+   - macOS / Linux: `research/nissan_cre_2026/open_dashboard.sh`
+   - Windows: `research/nissan_cre_2026/open_dashboard.bat`
+4. 直接HTMLを開く場合は、次のファイルをダブルクリックしてください。
+
+```text
+research/nissan_cre_2026/dashboard/index.html
 ```
 
 ---
