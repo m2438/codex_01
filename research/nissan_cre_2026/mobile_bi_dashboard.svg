@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1960" viewBox="0 0 390 1960" role="img" aria-labelledby="title desc">
+  <title id="title">日産自動車 CRE営業ターゲット モバイルBIダッシュボード</title>
+  <desc id="desc">スマホ画面で直接表示するための、日産自動車CRE営業ターゲット評価を可視化した縦長BIダッシュボード。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06101d" />
+      <stop offset="0.55" stop-color="#0b1729" />
+      <stop offset="1" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#13233d" stop-opacity="0.96" />
+      <stop offset="1" stop-color="#0b1729" stop-opacity="0.96" />
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4f8cff" />
+      <stop offset="1" stop-color="#28d4ff" />
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#28d4ff" />
+      <stop offset="1" stop-color="#43e6a0" />
+    </linearGradient>
+    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5c7a" />
+      <stop offset="1" stop-color="#ffc857" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000" flood-opacity="0.35" />
+    </filter>
+    <style>
+      .jp { font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Segoe UI', sans-serif; }
+      .muted { fill: #91a2b8; }
+      .text { fill: #e6edf7; }
+      .cyan { fill: #28d4ff; }
+      .greenText { fill: #43e6a0; }
+      .amber { fill: #ffc857; }
+      .red { fill: #ff5c7a; }
+      .card { fill: url(#card); stroke: rgba(148,163,184,.24); stroke-width: 1; filter: url(#shadow); }
+      .small { font-size: 11px; }
+      .body { font-size: 13px; }
+      .label { font-size: 10px; letter-spacing: .08em; font-weight: 800; }
+      .h1 { font-size: 28px; font-weight: 900; letter-spacing: -1.1px; }
+      .h2 { font-size: 18px; font-weight: 850; letter-spacing: -.4px; }
+      .h3 { font-size: 15px; font-weight: 850; }
+      .num { font-size: 46px; font-weight: 950; letter-spacing: -2px; }
+      .metric { font-size: 22px; font-weight: 900; letter-spacing: -.9px; }
+    </style>
+  </defs>
+
+  <rect width="390" height="1960" fill="url(#bg)" />
+  <circle cx="40" cy="80" r="150" fill="#4f8cff" opacity="0.20" />
+  <circle cx="360" cy="30" r="150" fill="#28d4ff" opacity="0.12" />
+  <circle cx="350" cy="520" r="190" fill="#43e6a0" opacity="0.08" />
+
+  <!-- Header -->
+  <rect x="18" y="24" width="354" height="238" rx="24" fill="#0f1c30" opacity="0.9" stroke="rgba(148,163,184,.25)" />
+  <text x="36" y="58" class="jp label cyan">NISSAN MOTOR CO. / CRE SALES BI</text>
+  <text x="36" y="92" class="jp h1 text">日産自動車</text>
+  <text x="36" y="124" class="jp h1 text">CRE営業ターゲット</text>
+  <text x="36" y="151" class="jp body muted">スマホ表示用ビジュアルBIダッシュボード</text>
+  <text x="36" y="174" class="jp small muted">基準日：2026-05-12 / 公開資料ベース</text>
+
+  <circle cx="297" cy="156" r="56" fill="none" stroke="rgba(255,255,255,.10)" stroke-width="14" />
+  <circle cx="297" cy="156" r="56" fill="none" stroke="#43e6a0" stroke-width="14" stroke-linecap="round" pathLength="100" stroke-dasharray="92 8" transform="rotate(-90 297 156)" />
+  <text x="297" y="149" text-anchor="middle" class="jp num text">92</text>
+  <text x="297" y="173" text-anchor="middle" class="jp small greenText">/100 最優先</text>
+
+  <!-- KPI cards -->
+  <rect x="18" y="282" width="167" height="110" rx="20" class="card" />
+  <text x="34" y="313" class="jp small muted">案件発生確度</text>
+  <text x="34" y="344" class="jp metric text">24/25</text>
+  <rect x="34" y="362" width="126" height="8" rx="4" fill="rgba(255,255,255,.10)" />
+  <rect x="34" y="362" width="121" height="8" rx="4" fill="url(#hot)" />
+  <text x="34" y="381" class="jp small muted">工場17→10統合</text>
+
+  <rect x="205" y="282" width="167" height="110" rx="20" class="card" />
+  <text x="221" y="313" class="jp small muted">案件規模</text>
+  <text x="221" y="344" class="jp metric text">20/20</text>
+  <rect x="221" y="362" width="126" height="8" rx="4" fill="rgba(255,255,255,.10)" />
+  <rect x="221" y="362" width="126" height="8" rx="4" fill="url(#hot)" />
+  <text x="221" y="381" class="jp small muted">国内外拠点に波及</text>
+
+  <rect x="18" y="410" width="167" height="110" rx="20" class="card" />
+  <text x="34" y="441" class="jp small muted">タイミング</text>
+  <text x="34" y="472" class="jp metric text">9/10</text>
+  <rect x="34" y="490" width="126" height="8" rx="4" fill="rgba(255,255,255,.10)" />
+  <rect x="34" y="490" width="113" height="8" rx="4" fill="url(#green)" />
+  <text x="34" y="509" class="jp small muted">2027年度まで集中</text>
+
+  <rect x="205" y="410" width="167" height="110" rx="20" class="card" />
+  <text x="221" y="441" class="jp small muted">外部支援余地</text>
+  <text x="221" y="472" class="jp metric text">13/15</text>
+  <rect x="221" y="490" width="126" height="8" rx="4" fill="rgba(255,255,255,.10)" />
+  <rect x="221" y="490" width="110" height="8" rx="4" fill="url(#green)" />
+  <text x="221" y="509" class="jp small muted">DD/売却/PMO</text>
+
+  <!-- Signal heatmap -->
+  <text x="22" y="568" class="jp label cyan">SIGNAL HEATMAP</text>
+  <text x="22" y="596" class="jp h2 text">CREシグナル強度</text>
+
+  <rect x="18" y="614" width="354" height="70" rx="18" fill="#171f34" stroke="rgba(255,92,122,.46)" />
+  <rect x="30" y="632" width="6" height="34" rx="3" fill="#ff5c7a" />
+  <text x="48" y="641" class="jp h3 text">工場統合・生産能力削減</text>
+  <text x="48" y="664" class="jp small muted">17→10工場 / 跡地売却・用途転換・移転PM</text>
+  <text x="330" y="642" text-anchor="end" class="jp small red">非常に強い</text>
+
+  <rect x="18" y="696" width="354" height="70" rx="18" fill="#171f34" stroke="rgba(255,92,122,.46)" />
+  <rect x="30" y="714" width="6" height="34" rx="3" fill="#ff5c7a" />
+  <text x="48" y="723" class="jp h3 text">固定資産売却の加速</text>
+  <text x="48" y="746" class="jp small muted">売却収入1,767億円 / 売却益1,191億円</text>
+  <text x="330" y="724" text-anchor="end" class="jp small red">非常に強い</text>
+
+  <rect x="18" y="778" width="354" height="70" rx="18" fill="#171f34" stroke="rgba(255,200,87,.42)" />
+  <rect x="30" y="796" width="6" height="34" rx="3" fill="#ffc857" />
+  <text x="48" y="805" class="jp h3 text">遊休・処分予定資産</text>
+  <text x="48" y="828" class="jp small muted">遊休27件 / 売却24件 / 処分予定11件</text>
+  <text x="330" y="806" text-anchor="end" class="jp small amber">強い</text>
+
+  <rect x="18" y="860" width="354" height="70" rx="18" fill="#171f34" stroke="rgba(255,200,87,.42)" />
+  <rect x="30" y="878" width="6" height="34" rx="3" fill="#ffc857" />
+  <text x="48" y="887" class="jp h3 text">資本効率化圧力</text>
+  <text x="48" y="910" class="jp small muted">FCF赤字 / 純資産低下 / 長期社債増</text>
+  <text x="330" y="888" text-anchor="end" class="jp small amber">強い</text>
+
+  <!-- Finance -->
+  <text x="22" y="986" class="jp label cyan">FINANCIAL SNAPSHOT</text>
+  <text x="22" y="1014" class="jp h2 text">財務・キャッシュ・資産売却</text>
+
+  <rect x="18" y="1034" width="354" height="220" rx="24" class="card" />
+  <text x="38" y="1071" class="jp small muted">自動車事業FCF</text>
+  <text x="230" y="1071" text-anchor="end" class="jp h3 red">-6,914億円</text>
+  <rect x="38" y="1087" width="292" height="14" rx="7" fill="rgba(255,255,255,.10)" />
+  <rect x="38" y="1087" width="292" height="14" rx="7" fill="url(#hot)" />
+
+  <text x="38" y="1132" class="jp small muted">固定資産売却収入</text>
+  <text x="230" y="1132" text-anchor="end" class="jp h3 greenText">1,767億円</text>
+  <rect x="38" y="1148" width="292" height="14" rx="7" fill="rgba(255,255,255,.10)" />
+  <rect x="38" y="1148" width="75" height="14" rx="7" fill="url(#green)" />
+
+  <text x="38" y="1193" class="jp small muted">固定資産売却益</text>
+  <text x="230" y="1193" text-anchor="end" class="jp h3 greenText">1,191億円</text>
+  <rect x="38" y="1209" width="292" height="14" rx="7" fill="rgba(255,255,255,.10)" />
+  <rect x="38" y="1209" width="51" height="14" rx="7" fill="url(#green)" />
+
+  <rect x="18" y="1272" width="167" height="100" rx="20" class="card" />
+  <text x="34" y="1303" class="jp small muted">土地</text>
+  <text x="34" y="1333" class="jp metric text">5,668億円</text>
+  <text x="34" y="1354" class="jp small red">-74億円 / 案件化余地</text>
+
+  <rect x="205" y="1272" width="167" height="100" rx="20" class="card" />
+  <text x="221" y="1303" class="jp small muted">長期社債</text>
+  <text x="221" y="1333" class="jp metric text">2兆6,711億円</text>
+  <text x="221" y="1354" class="jp small greenText">+9,626億円 / 流動性</text>
+
+  <!-- Assets -->
+  <text x="22" y="1428" class="jp label cyan">ASSET PRIORITY</text>
+  <text x="22" y="1456" class="jp h2 text">注目不動産・設備</text>
+
+  <rect x="18" y="1476" width="354" height="130" rx="24" fill="#171f34" stroke="rgba(255,92,122,.50)" />
+  <text x="38" y="1512" class="jp label red">MOST CRITICAL</text>
+  <text x="38" y="1538" class="jp h2 text">追浜工場</text>
+  <text x="38" y="1564" class="jp small muted">土地 1,844,577㎡ / 土地簿価 291.5億円</text>
+  <text x="38" y="1586" class="jp small muted">跡地構想・売却・再開発・地域調整</text>
+
+  <rect x="18" y="1620" width="354" height="112" rx="22" class="card" />
+  <text x="38" y="1656" class="jp h3 text">日産自動車九州</text>
+  <text x="38" y="1681" class="jp small muted">土地 2,355,196㎡ / 受入改修・物流再設計</text>
+  <text x="38" y="1704" class="jp small amber">生産移管の受け皿として注目</text>
+
+  <rect x="18" y="1746" width="354" height="112" rx="22" class="card" />
+  <text x="38" y="1782" class="jp h3 text">愛川町 パーツセンター倉庫</text>
+  <text x="38" y="1807" class="jp small muted">97,852㎡ / 年換算賃料 約18.5億円</text>
+  <text x="38" y="1830" class="jp small amber">物流再編・賃借/保有比較</text>
+
+  <!-- Playbook footer -->
+  <rect x="18" y="1880" width="354" height="56" rx="18" fill="url(#blue)" opacity="0.92" />
+  <text x="38" y="1904" class="jp h3" fill="#06101d">初回提案</text>
+  <text x="38" y="1925" class="jp small" fill="#06101d">Re:Nissan工場再編に伴うCRE戦略PMO</text>
+</svg>
