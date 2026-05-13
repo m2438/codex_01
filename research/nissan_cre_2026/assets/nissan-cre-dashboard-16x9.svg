@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Nissan CRE Sales Intelligence 16:9 BI Dashboard</title>
+  <desc id="desc">A polished 16:9 dashboard image summarizing Nissan corporate real estate sales signals, financial pressure, prioritized assets, and consulting opportunities.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06101d"/><stop offset="0.52" stop-color="#0a1628"/><stop offset="1" stop-color="#101827"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14243e" stop-opacity=".96"/><stop offset="1" stop-color="#0b1729" stop-opacity=".96"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4f8cff"/><stop offset="1" stop-color="#28d4ff"/></linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#28d4ff"/><stop offset="1" stop-color="#43e6a0"/></linearGradient>
+    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff5c7a"/><stop offset="1" stop-color="#ffc857"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".36"/></filter>
+    <style>
+      .font{font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif}.muted{fill:#91a2b8}.text{fill:#e6edf7}.cyan{fill:#28d4ff}.greenText{fill:#43e6a0}.amber{fill:#ffc857}.red{fill:#ff5c7a}.card{fill:url(#panel);stroke:rgba(148,163,184,.24);stroke-width:1.2;filter:url(#shadow)}.label{font-size:20px;font-weight:800;letter-spacing:.12em}.small{font-size:22px}.body{font-size:26px}.h1{font-size:62px;font-weight:900;letter-spacing:-2.4px}.h2{font-size:34px;font-weight:850;letter-spacing:-.8px}.h3{font-size:28px;font-weight:850}.metric{font-size:42px;font-weight:900;letter-spacing:-1.4px}.num{font-size:92px;font-weight:950;letter-spacing:-4px}
+    </style>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <circle cx="130" cy="110" r="310" fill="#4f8cff" opacity=".20"/><circle cx="1730" cy="60" r="360" fill="#28d4ff" opacity=".12"/><circle cx="1540" cy="900" r="400" fill="#43e6a0" opacity=".08"/>
+  <text x="70" y="72" class="font label cyan">NISSAN MOTOR CO. / CORPORATE REAL ESTATE</text>
+  <text x="70" y="138" class="font h1 text">CRE Sales Intelligence Dashboard</text>
+  <text x="70" y="184" class="font body muted">Reference date: 2026-05-12 · Public disclosures, Re:Nissan, financials and asset signals</text>
+  <rect x="1492" y="46" width="352" height="164" rx="34" class="card"/>
+  <circle cx="1578" cy="128" r="54" fill="none" stroke="rgba(255,255,255,.11)" stroke-width="16"/><circle cx="1578" cy="128" r="54" fill="none" stroke="#43e6a0" stroke-width="16" stroke-linecap="round" pathLength="100" stroke-dasharray="92 8" transform="rotate(-90 1578 128)"/>
+  <text x="1660" y="106" class="font small muted">Target Score</text><text x="1660" y="153" class="font metric text">92 / 100</text><text x="1660" y="184" class="font small greenText">Top-priority account</text>
+
+  <g id="kpis">
+    <rect x="70" y="242" width="405" height="150" rx="28" class="card"/><text x="100" y="290" class="font small muted">Deal Probability</text><text x="100" y="342" class="font metric text">24 / 25</text><rect x="100" y="360" width="320" height="14" rx="7" fill="rgba(255,255,255,.10)"/><rect x="100" y="360" width="307" height="14" rx="7" fill="url(#hot)"/><text x="100" y="384" class="font small muted">Plant consolidation 17 → 10</text>
+    <rect x="505" y="242" width="405" height="150" rx="28" class="card"/><text x="535" y="290" class="font small muted">Opportunity Scale</text><text x="535" y="342" class="font metric text">20 / 20</text><rect x="535" y="360" width="320" height="14" rx="7" fill="rgba(255,255,255,.10)"/><rect x="535" y="360" width="320" height="14" rx="7" fill="url(#hot)"/><text x="535" y="384" class="font small muted">Factories, R&amp;D, logistics, HQ</text>
+    <rect x="940" y="242" width="405" height="150" rx="28" class="card"/><text x="970" y="290" class="font small muted">Strategic Fit</text><text x="970" y="342" class="font metric text">19 / 20</text><rect x="970" y="360" width="320" height="14" rx="7" fill="rgba(255,255,255,.10)"/><rect x="970" y="360" width="304" height="14" rx="7" fill="url(#green)"/><text x="970" y="384" class="font small muted">FCF pressure + fixed-cost cuts</text>
+    <rect x="1375" y="242" width="405" height="150" rx="28" class="card"/><text x="1405" y="290" class="font small muted">Timing</text><text x="1405" y="342" class="font metric text">9 / 10</text><rect x="1405" y="360" width="320" height="14" rx="7" fill="rgba(255,255,255,.10)"/><rect x="1405" y="360" width="288" height="14" rx="7" fill="url(#green)"/><text x="1405" y="384" class="font small muted">FY2026 recovery / FY2027 integration</text>
+  </g>
+
+  <rect x="70" y="430" width="820" height="452" rx="34" class="card"/>
+  <text x="105" y="482" class="font label cyan">SIGNAL HEATMAP</text><text x="105" y="526" class="font h2 text">CRE opportunity intensity</text>
+  <g class="font">
+    <rect x="105" y="558" width="750" height="66" rx="18" fill="#171f34" stroke="rgba(255,92,122,.48)"/><rect x="126" y="576" width="8" height="30" rx="4" fill="#ff5c7a"/><text x="154" y="586" class="h3 text">Factory footprint reset</text><text x="154" y="612" class="small muted">17→10 plants · site exits · relocation PM · local stakeholder work</text><text x="790" y="590" text-anchor="end" class="small red">Very high</text>
+    <rect x="105" y="642" width="750" height="66" rx="18" fill="#171f34" stroke="rgba(255,92,122,.48)"/><rect x="126" y="660" width="8" height="30" rx="4" fill="#ff5c7a"/><text x="154" y="670" class="h3 text">Fixed-asset sales accelerating</text><text x="154" y="696" class="small muted">Proceeds ¥176.7bn · gains ¥119.1bn in FY2025 3Q YTD</text><text x="790" y="674" text-anchor="end" class="small red">Very high</text>
+    <rect x="105" y="726" width="750" height="66" rx="18" fill="#171f34" stroke="rgba(255,200,87,.44)"/><rect x="126" y="744" width="8" height="30" rx="4" fill="#ffc857"/><text x="154" y="754" class="h3 text">Idle / disposal assets surfaced</text><text x="154" y="780" class="small muted">Idle 27 · sale 24 · planned disposal 11 assets disclosed</text><text x="790" y="758" text-anchor="end" class="small amber">High</text>
+    <rect x="105" y="810" width="750" height="46" rx="16" fill="#171f34" stroke="rgba(255,200,87,.34)"/><text x="154" y="841" class="h3 text">Capital efficiency pressure</text><text x="790" y="841" text-anchor="end" class="small amber">High</text>
+  </g>
+
+  <rect x="930" y="430" width="850" height="452" rx="34" class="card"/>
+  <text x="965" y="482" class="font label cyan">FINANCIAL SNAPSHOT</text><text x="965" y="526" class="font h2 text">Cash, balance sheet and asset monetization</text>
+  <g class="font">
+    <text x="965" y="585" class="small muted">Automotive FCF</text><text x="1605" y="585" text-anchor="end" class="h3 red">-¥691.4bn</text><rect x="965" y="605" width="690" height="18" rx="9" fill="rgba(255,255,255,.10)"/><rect x="965" y="605" width="690" height="18" rx="9" fill="url(#hot)"/>
+    <text x="965" y="662" class="small muted">Fixed-asset sale proceeds</text><text x="1605" y="662" text-anchor="end" class="h3 greenText">¥176.7bn</text><rect x="965" y="682" width="690" height="18" rx="9" fill="rgba(255,255,255,.10)"/><rect x="965" y="682" width="176" height="18" rx="9" fill="url(#green)"/>
+    <text x="965" y="739" class="small muted">Fixed-asset sale gains</text><text x="1605" y="739" text-anchor="end" class="h3 greenText">¥119.1bn</text><rect x="965" y="759" width="690" height="18" rx="9" fill="rgba(255,255,255,.10)"/><rect x="965" y="759" width="119" height="18" rx="9" fill="url(#green)"/>
+    <rect x="965" y="805" width="180" height="54" rx="16" fill="rgba(255,255,255,.05)"/><text x="985" y="828" class="small muted">Land</text><text x="985" y="852" class="h3 text">¥566.8bn</text>
+    <rect x="1160" y="805" width="230" height="54" rx="16" fill="rgba(255,255,255,.05)"/><text x="1180" y="828" class="small muted">Long-term bonds</text><text x="1180" y="852" class="h3 text">¥2,671.1bn</text>
+    <rect x="1405" y="805" width="235" height="54" rx="16" fill="rgba(255,255,255,.05)"/><text x="1425" y="828" class="small muted">Impairment loss</text><text x="1425" y="852" class="h3 text">¥80.6bn</text>
+  </g>
+
+  <g class="font">
+    <rect x="70" y="916" width="535" height="112" rx="28" fill="#171f34" stroke="rgba(255,92,122,.50)" filter="url(#shadow)"/><text x="102" y="955" class="label red">MOST CRITICAL ASSET</text><text x="102" y="990" class="h2 text">Oppama Plant</text><text x="102" y="1018" class="small muted">1,844,577 sqm · sale / reuse / redevelopment</text>
+    <rect x="635" y="916" width="535" height="112" rx="28" class="card"/><text x="667" y="956" class="label cyan">RECEIVING SITE</text><text x="667" y="990" class="h2 text">Nissan Motor Kyushu</text><text x="667" y="1018" class="small muted">2,355,196 sqm · retrofit / capacity intake</text>
+    <rect x="1200" y="916" width="580" height="112" rx="28" fill="url(#cyan)" opacity=".94" filter="url(#shadow)"/><text x="1232" y="956" class="label" fill="#06101d">FIRST PITCH</text><text x="1232" y="992" class="h2" fill="#06101d">CRE Strategy PMO</text><text x="1232" y="1020" class="small" fill="#06101d">Asset sales · reuse · environmental DD · relocation PM</text>
+  </g>
+</svg>
