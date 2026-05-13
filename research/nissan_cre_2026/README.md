@@ -9,6 +9,9 @@
 > **スマホのCodex画面でBI表示する場合：** [`MOBILE_VISUAL_DASHBOARD.md`](./MOBILE_VISUAL_DASHBOARD.md)<br>
 > ダウンロードやHTTPサーバーなしで見られる、縦長SVGのビジュアルBIダッシュボードを追加しています。
 
+> **一枚画像ファイル版：** [`NISSAN_CRE_DASHBOARD_ONE_IMAGE.svg`](./NISSAN_CRE_DASHBOARD_ONE_IMAGE.svg)<br>
+> ダッシュボード全体を1枚の画像ファイル（SVG）として出力しています。スマホのCodex画面でもこの画像を直接表示できます。
+
 
 ## スマホBI表示版（Codex画面用）
 
@@ -18,9 +21,9 @@
 research/nissan_cre_2026/MOBILE_VISUAL_DASHBOARD.md
 ```
 
-このファイル内に、スマホ縦画面向けのSVGダッシュボード `mobile_bi_dashboard.svg` を埋め込んでいます。HTMLの起動、HTTPサーバー、ダウンロード、`file://` URLは不要です。
+このファイル内に、スマホ縦画面向けの1枚画像ファイル `NISSAN_CRE_DASHBOARD_ONE_IMAGE.svg` を埋め込んでいます。HTMLの起動、HTTPサーバー、ダウンロード、`file://` URLは不要です。
 
-![日産自動車 CRE営業ターゲット モバイルBIダッシュボード](./mobile_bi_dashboard.svg)
+![日産自動車 CRE営業ターゲット モバイルBIダッシュボード](./NISSAN_CRE_DASHBOARD_ONE_IMAGE.svg)
 
 ---
 
