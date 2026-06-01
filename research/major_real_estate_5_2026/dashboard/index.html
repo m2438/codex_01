@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>大手不動産5社 BI分析ダッシュボード</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Major Developers / FY2026.3</p>
+          <h1>大手不動産5社<br />営業・協業ターゲット分析</h1>
+          <p class="lead">三井不動産、東急不動産HD、三菱地所、住友不動産、野村不動産HDの最新決算と事業テーマを横断比較し、営業・協業の優先度を可視化します。</p>
+        </div>
+        <div class="hero-score">
+          <span>最高評価</span>
+          <strong>94</strong>
+          <em>三井不動産</em>
+        </div>
+      </section>
+
+      <section class="toolbar" aria-label="ダッシュボード操作">
+        <div>
+          <label for="themeFilter">テーマで絞り込み</label>
+          <select id="themeFilter">
+            <option value="all">すべて</option>
+            <option value="再開発">再開発</option>
+            <option value="資産回転">資産回転</option>
+            <option value="環境不動産">環境不動産</option>
+            <option value="住宅">住宅</option>
+            <option value="ホテル・リゾート">ホテル・リゾート</option>
+            <option value="賃貸オフィス">賃貸オフィス</option>
+          </select>
+        </div>
+        <div>
+          <label for="sortKey">並び替え</label>
+          <select id="sortKey">
+            <option value="score">ターゲット評価</option>
+            <option value="revenue">営業収益</option>
+            <option value="operatingProfit">営業利益</option>
+            <option value="assets">総資産</option>
+            <option value="equityRatio">自己資本比率</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="kpi-grid" id="kpiGrid" aria-label="全体KPI"></section>
+
+      <section class="dashboard-grid">
+        <article class="panel ranking-panel">
+          <div class="panel-title">
+            <p class="eyebrow">Ranking</p>
+            <h2>営業・協業ターゲット評価</h2>
+          </div>
+          <div id="rankingList" class="ranking-list"></div>
+        </article>
+
+        <article class="panel chart-panel">
+          <div class="panel-title">
+            <p class="eyebrow">Profit Scale</p>
+            <h2>営業利益規模比較</h2>
+          </div>
+          <div id="profitChart" class="bar-chart"></div>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title inline">
+          <div>
+            <p class="eyebrow">Company Cards</p>
+            <h2>個社分析カード</h2>
+          </div>
+          <span id="resultCount" class="pill"></span>
+        </div>
+        <div id="companyCards" class="company-grid"></div>
+      </section>
+
+      <section class="panel matrix-panel">
+        <div class="panel-title">
+          <p class="eyebrow">Strategic Matrix</p>
+          <h2>案件テーマ別ポジショニング</h2>
+        </div>
+        <div id="themeMatrix" class="matrix"></div>
+      </section>
+
+      <section class="panel source-panel">
+        <div class="panel-title">
+          <p class="eyebrow">Sources</p>
+          <h2>採用した最新資料</h2>
+        </div>
+        <div id="sourceList" class="source-list"></div>
+      </section>
+    </main>
+  </body>
+</html>
