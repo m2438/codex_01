@@ -15,7 +15,7 @@
   <rect width="1500" height="900" fill="url(#bg)"/>
   <circle cx="100" cy="90" r="250" fill="#4f8cff" opacity=".20"/><circle cx="1370" cy="50" r="290" fill="#28d4ff" opacity=".12"/><circle cx="1220" cy="760" r="330" fill="#43e6a0" opacity=".08"/>
 
-  <text x="50" y="58" class="font label cyanText">NISSAN MOTOR CO. / CORPORATE REAL ESTATE</text>
+  <text x="50" y="58" class="font label cyanText">日産自動車 / 企業不動産（CRE）</text>
   <text x="50" y="112" class="font h1 text">日産自動車 CRE営業ターゲットBI</text>
   <text x="50" y="150" class="font body muted">基準日：2026-05-12 ・ 公開資料、Re:Nissan、財務・資産シグナルに基づく営業判断用ダッシュボード</text>
   <rect x="1160" y="40" width="288" height="136" rx="28" class="card"/>
@@ -30,7 +30,7 @@
   </g>
 
   <rect x="50" y="350" width="650" height="365" rx="28" class="card"/>
-  <text x="78" y="392" class="font label cyanText">SIGNAL HEATMAP</text><text x="78" y="428" class="font h2 text">CREシグナル強度</text>
+  <text x="78" y="392" class="font label cyanText">シグナルヒートマップ</text><text x="78" y="428" class="font h2 text">CREシグナル強度</text>
   <g class="font">
     <rect x="78" y="456" width="594" height="55" rx="15" fill="#171f34" stroke="rgba(255,92,122,.48)"/><rect x="96" y="471" width="7" height="25" rx="4" fill="#ff5c7a"/><text x="120" y="480" class="h3 text">工場統合・生産能力削減</text><text x="120" y="501" class="small muted">17→10工場、跡地売却、移転PM、自治体調整</text><text x="630" y="483" text-anchor="end" class="small red">非常に強い</text>
     <rect x="78" y="525" width="594" height="55" rx="15" fill="#171f34" stroke="rgba(255,92,122,.48)"/><rect x="96" y="540" width="7" height="25" rx="4" fill="#ff5c7a"/><text x="120" y="549" class="h3 text">固定資産売却の加速</text><text x="120" y="570" class="small muted">売却収入1,767億円、売却益1,191億円</text><text x="630" y="552" text-anchor="end" class="small red">非常に強い</text>
@@ -39,7 +39,7 @@
   </g>
 
   <rect x="730" y="350" width="655" height="365" rx="28" class="card"/>
-  <text x="758" y="392" class="font label cyanText">FINANCIAL SNAPSHOT</text><text x="758" y="428" class="font h2 text">財務・キャッシュ・資産売却</text>
+  <text x="758" y="392" class="font label cyanText">財務スナップショット</text><text x="758" y="428" class="font h2 text">財務・キャッシュ・資産売却</text>
   <g class="font">
     <text x="758" y="476" class="small muted">自動車事業FCF</text><text x="1255" y="476" text-anchor="end" class="h3 red">-6,914億円</text><rect x="758" y="492" width="520" height="14" rx="7" fill="rgba(255,255,255,.10)"/><rect x="758" y="492" width="520" height="14" rx="7" fill="url(#hot)"/>
     <text x="758" y="540" class="small muted">固定資産売却収入</text><text x="1255" y="540" text-anchor="end" class="h3 greenText">1,767億円</text><rect x="758" y="556" width="520" height="14" rx="7" fill="rgba(255,255,255,.10)"/><rect x="758" y="556" width="133" height="14" rx="7" fill="url(#green)"/>
